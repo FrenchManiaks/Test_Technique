@@ -1,0 +1,44 @@
+html {
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  background-color: white;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #00db5f;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #00db5f;
+}
+
+.first_img {
+  vertical-align: middle;
+  max-width: 479px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 3rem !important;
+  margin-top: 1.5rem !important;
+  width: 100% !important;
+}
+
+.logo {
+  max-width: 100px;
+}
